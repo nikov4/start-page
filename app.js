@@ -112,12 +112,12 @@ function getData(type) {
     })
     .then((data) => {
       // fetching ok
-      const servisesPlace = document.getElementById(type);
+      const place = document.getElementById(type);
       // Object.entries(data).forEach((value, index) => {
       /* eslint-disable-next-line */
       for (let [key, value] of Object.entries(data)) {
         if (!value.hidden) {
-          const link = servisesPlace.appendChild(document.createElement("div"));
+          const link = place.appendChild(document.createElement("div"));
           link.className = "s-cell";
           const icon = `./pic/96x96/${value.logo}.png`;
           link.setAttribute("style", `background: url('${icon}') 0 0 no-repeat;`);
@@ -160,7 +160,7 @@ helpLink.addEventListener("click", tipClick);
 helpClose.addEventListener("click", tipHide);
 
 // clear input
-const eraser = document.getElementById("inputEraser");
+const eraser = document.querySelector(".eraser");
 function clearInput() {
   qtxt.value = "";
 }
