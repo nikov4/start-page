@@ -14,14 +14,14 @@ button {
   outline: 0;
 }
 
-input:focus {
-  /* outline: none !important; */
-}
-
 svg.clip {
   width: 25px;
   height: 25px;
   vertical-align: middle;
+}
+
+.eraser {
+  cursor: pointer;
 }
 
 .hidden {
