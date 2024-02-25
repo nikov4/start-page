@@ -3,10 +3,7 @@
   "plugins": ["import", "prettier"],
   "rules": {
     "no-console": 0,
-    "linebreak-style": [
-      2,
-      "unix"
-    ],
+    "linebreak-style": [2, "unix"],
     "prettier/prettier": ["error"]
   },
   "env": {
@@ -15,6 +12,6 @@
     "es6": true
   },
   "parserOptions": {
-    "ecmaVersion": 2017
+    "ecmaVersion": "latest"
   }
 }
