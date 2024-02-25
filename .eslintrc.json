@@ -1,0 +1,20 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["import", "prettier"],
+  "rules": {
+    "no-console": 0,
+    "linebreak-style": [
+      2,
+      "unix"
+    ],
+    "prettier/prettier": ["error"]
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2017
+  }
+}

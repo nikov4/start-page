@@ -1,0 +1,218 @@
+{
+  "avito": {
+    "logo": "avito",
+    "url_begin": "https://www.avito.ru/moskva?cd=1&q=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "pepper": {
+    "logo": "pepper",
+    "url_begin": "https://www.pepper.ru/search?q=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "ali": {
+    "logo": "aliexpress",
+    "url_begin": "https://aliexpress.ru/wholesale?catId=&SearchText=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "wb": {
+    "logo": "wb",
+    "url_begin": "https://www.wildberries.ru/catalog/0/search.aspx?search=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "ozon": {
+    "logo": "ozon",
+    "url_begin": "https://www.ozon.ru/search/?text=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "sbermegamarket": {
+    "logo": "sbermegamarket",
+    "url_begin": "https://sbermegamarket.ru/catalog/?q=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "yamarket": {
+    "logo": "ya-market",
+    "url_begin": "https://market.yandex.ru/search?cvredirect=2&text=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "dns": {
+    "logo": "dns-shop",
+    "url_begin": "https://www.dns-shop.ru/search/?q=",
+    "url_end": "&stock=now",
+    "hidden": ""
+  },
+  "citilink": {
+    "logo": "citilink",
+    "url_begin": "https://www.citilink.ru/search/?text=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "pleer": {
+    "logo": "pleer",
+    "url_begin": "https://www.pleer.ru/search_",
+    "url_end": ".html",
+    "hidden": ""
+  },
+  "onlinetrade": {
+    "logo": "onlinetrade",
+    "url_begin": "https://www.onlinetrade.ru/sitesearch.html?query=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "apteka": {
+    "logo": "apteka",
+    "url_begin": "https://apteka.ru/search/?q=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "eapteka": {
+    "logo": "eapteka",
+    "url_begin": "https://www.eapteka.ru/search/?q=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "rigla": {
+    "logo": "rigla",
+    "url_begin": "https://www.rigla.ru/search?q=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "stolichki": {
+    "logo": "stolichki",
+    "url_begin": "https://stolichki.ru/search?name=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "lamoda": {
+    "logo": "lamoda",
+    "url_begin": "https://www.lamoda.ru/catalogsearch/result/?q=",
+    "url_end": "&submit=y&gender_section=",
+    "hidden": ""
+  },
+  "sportmaster": {
+    "logo": "sportmaster",
+    "url_begin": "https://www.sportmaster.ru/catalog/product/search.do/?text=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "leroymerlin": {
+    "logo": "leroymerlin",
+    "url_begin": "https://leroymerlin.ru/search/?q=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "forumhouse": {
+    "logo": "forumhouse",
+    "url_begin": "https://www.forumhouse.ru/poisk/search.php?query=",
+    "url_end": "&_xfToken=",
+    "hidden": ""
+  },
+  "petrovich": {
+    "logo": "petrovich",
+    "url_begin": "https://moscow.petrovich.ru/search/?q=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "vseinstrumenti": {
+    "logo": "vseinstrumenti",
+    "url_begin": "https://www.vseinstrumenti.ru/search_main.php?what=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "wiki": {
+    "logo": "wiki",
+    "url_begin": "https://ru.wikipedia.org/wiki/",
+    "url_end": "",
+    "hidden": ""
+  },
+  "tube": {
+    "logo": "youtube",
+    "url_begin": "https://www.youtube.com/results?search_query=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "kinopoisk": {
+    "logo": "kinopoisk",
+    "url_begin": "https://www.kinopoisk.ru/index.php?kp_query=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "rutracker": {
+    "logo": "rutracker",
+    "url_begin": "https://rutracker.org/forum/tracker.php?nm=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "afisha": {
+    "logo": "afisha",
+    "url_begin": "https://www.afisha.ru/search/?query=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "reddit": {
+    "logo": "reddit",
+    "url_begin": "https://www.reddit.com/search/?q=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "4pda": {
+    "logo": "4pda",
+    "url_begin": "https://4pda.to/forum/index.php?act=search&source=all&forums%5B%5D=all&query=",
+    "url_end": "&x=0&y=0",
+    "hidden": "win"
+  },
+  "habr": {
+    "logo": "habr",
+    "url_begin": "https://habr.com/ru/search/?q=",
+    "url_end": "&target_type=posts&order=relevance",
+    "hidden": ""
+  },
+  "qna": {
+    "logo": "habr-qna",
+    "url_begin": "https://qna.habr.com/search?q=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "stackoverflow": {
+    "logo": "stackoverflow",
+    "url_begin": "https://stackoverflow.com/search?q=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "javascript-ru": {
+    "logo": "javascript-ru",
+    "url_begin": "https://learn.javascript.ru/search?query=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "mozilla": {
+    "logo": "mozilla",
+    "url_begin": "https://developer.mozilla.org/ru/search?q=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "php": {
+    "logo": "php-net",
+    "url_begin": "https://www.php.net/manual-lookup.php?pattern=",
+    "url_end": "&scope=quickref",
+    "hidden": ""
+  },
+  "perl": {
+    "logo": "perldoc",
+    "url_begin": "https://perldoc.perl.org/search?q=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "python": {
+    "logo": "python",
+    "url_begin": "https://docs.python.org/3/search.html?q=",
+    "url_end": "&check_keywords=yes&area=default",
+    "hidden": ""
+  }
+}

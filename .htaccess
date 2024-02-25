@@ -1,0 +1,12 @@
+Options -Indexes
+
+<IfModule mod_expires.c>
+   ExpiresActive Off
+   #ExpiresActive On
+   ExpiresDefault "access plus 5 minutes"
+   ExpiresByType text/html "access plus 1 day"
+   ExpiresByType image/gif "access plus 1 day"
+   ExpiresByType image/jpeg "access plus 1 day"
+</IfModule>
+
+DirectoryIndex index.min.html index.html

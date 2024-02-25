@@ -1,0 +1,56 @@
+{
+  "google": {
+    "logo": "google-docs",
+    "url_begin": "https://docs.google.com",
+    "url_end": "",
+    "hidden": ""
+  },
+  "keep": {
+    "logo": "google-keep",
+    "url_begin": "https://keep.google.com",
+    "url_end": "",
+    "hidden": ""
+  },
+  "gmail": {
+    "logo": "gmail",
+    "url_begin": "https://gmail.com",
+    "url_end": "",
+    "hidden": ""
+  },
+  "mail.ru": {
+    "logo": "mail-ru",
+    "url_begin": "https://mail.ru",
+    "url_end": "",
+    "hidden": "1"
+  },
+  "yandex 360": {
+    "logo": "/yandex-360",
+    "url_begin": "https://docs.yandex.ru",
+    "url_end": "",
+    "hidden": "1"
+  },
+  "mindmeister": {
+    "logo": "mindmeister",
+    "url_begin": "https://mindmeister.com",
+    "url_end": "",
+    "hidden": ""
+  },
+  "github": {
+    "logo": "github",
+    "url_begin": "https://github.com",
+    "url_end": "",
+    "hidden": ""
+  },
+  "trello": {
+    "logo": "trello",
+    "url_begin": "https://trello.com",
+    "url_end": "",
+    "hidden": "1"
+  },
+  "kaiten": {
+    "logo": "kaiten",
+    "url_begin": "https://kaiten.ru",
+    "url_end": "",
+    "hidden": ""
+  }
+}
