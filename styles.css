@@ -30,10 +30,11 @@ svg.clip {
 }
 
 .s-main {
-  font:
-    0.8em Arial,
-    Helvetica,
-    sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  /* prettier-ignore */
+  font: 0.8em Arial, Helvetica, sans-serif;
 }
 
 .s-section {
