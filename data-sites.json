@@ -165,7 +165,7 @@
     "logo": "4pda",
     "url_begin": "https://4pda.to/forum/index.php?act=search&source=all&forums%5B%5D=all&query=",
     "url_end": "&x=0&y=0",
-    "hidden": "win"
+    "hidden": ""
   },
   "habr": {
     "logo": "habr",
