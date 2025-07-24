@@ -35,8 +35,7 @@ function getYandex(event) {
     form.target = "";
     window.open(qstr, "_blank");
   } else {
-    // form.action = qstr;
-    form.action = "https://www.google.ru";
+    form.action = qstr;
     form.target = "_blank";
   }
 }
