@@ -35,10 +35,8 @@ function getYandex(event) {
     form.target = "";
     window.open(qstr, "_blank");
   } else {
-    event.preventDefault();
-    qstr = "https://www.google.ru/search?q=";
-    const site = qstr + encodeURIComponent(qtxt.value);
-    window.open(site, "_blank");
+    form.action = qstr;
+    form.target = "_blank";
   }
 }
 let buttons = document.querySelectorAll(".ya-button");
