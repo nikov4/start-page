@@ -60,11 +60,12 @@ svg.clip {
 .search-google {
   margin-top: 10px;
 }
+
 .search-form {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: #ffcc00;
+  /* background-color: #ffcc00;*/
   border-radius: 8px;
 }
 
@@ -89,7 +90,8 @@ svg.clip {
 
 .ya-button {
   padding: 10px;
-  background-color: #ffcc00;
+  border: 0px;
+  background-color: #fff;
   cursor: pointer;
 }
 
@@ -134,13 +136,25 @@ svg.clip {
   }
 }
 
+@media (max-width: 900px) {
+  .input {
+    width: 80vw;
+  }
+}
+
 @media (min-width: 900px) {
   .input {
-    width: 40vw;
+    width: 60vw;
   }
 }
 
 @media (min-width: 1440px) {
+  .input {
+    width: 50vw;
+  }
+}
+
+@media (min-width: 1920px) {
   .input {
     width: 30vw;
   }

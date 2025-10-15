@@ -4,44 +4,31 @@ const siteUrlEnd = new Map();
 const siteLogos = new Map();
 const qtxt = document.getElementById("inputText");
 const empty = "";
+let buttons = null;
 
 // get Yandex
-function getYandex(event) {
-  const form = document.getElementById("sear4_form");
-  const trgt = event.target.innerText;
-  let qstr = "";
-  if (trgt === "Поиск") {
-    qstr = "https://yandex.ru/search/";
-  } else if (trgt === "Карты") {
-    qstr = "https://yandex.ru/maps/";
-  } else if (trgt === "Товары") {
-    qstr = "https://yandex.ru/products/";
-  } else if (trgt === "Картинки") {
-    qstr = "https://yandex.ru/images/search/";
-  } else if (trgt === "Видео") {
-    qstr = "https://yandex.ru/video/search/";
-  } else if (trgt === "Перевод") {
-    qstr = "https://translate.yandex.ru/";
+function getYande(event) {
+  let trgt = event.target.innerText;
+  if (trgt) {
+    trgt = trgt.replace(/ /, "");
   }
-  if (!qtxt.value) {
-    if (trgt === "Поиск") {
-      qstr = "https://ya.ru/";
-    } else if (trgt === "Картинки") {
-      qstr = "https://yandex.ru/images/";
-    } else if (trgt === "Видео") {
-      qstr = "https://yandex.ru/video/";
-    }
-    form.action = "";
-    form.target = "";
-    window.open(qstr, "_blank");
-  } else {
-    form.action = qstr;
-    form.target = "_blank";
+  let qstr = "";
+  let qprm = "";
+  if (trgt === "Карты") {
+    qstr = "https://yandex.ru/maps/?text=";
+    qprm = "&ie=UTF-8";
+  } else if (trgt === "Поиск") {
+    qstr = "https://yandex.ru/search/?text=";
+    qprm = "";
+  }
+  if (trgt) {
+    const site = qstr + encodeURIComponent(qtxt.value) + qprm;
+    window.open(site, "_blank");
   }
 }
-let buttons = document.querySelectorAll(".ya-button");
+buttons = document.querySelectorAll(".ya-button");
 buttons.forEach((button) => {
-  button.addEventListener("click", getYandex);
+  button.addEventListener("click", getYande);
 });
 
 // get Google
