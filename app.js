@@ -5,6 +5,21 @@ const siteLogos = new Map();
 const qtxt = document.getElementById("inputText");
 const empty = "";
 let buttons = null;
+let site = null;
+const form = document.getElementById("sear4_form");
+
+// handle Enter key
+document.getElementById("sear4_form");
+form.addEventListener("keydown", (e) => {
+  if (e.key === "Enter" || e.key === "NumpadEnter") {
+    if (qtxt.value !== "") {
+      site = `https://www.google.com/search?q=${qtxt.value}`;
+      window.open(site, "_blank");
+    } else {
+      e.preventDefault();
+    }
+  }
+});
 
 // get Yandex
 function getYande(event) {
@@ -22,7 +37,7 @@ function getYande(event) {
     qprm = "";
   }
   if (trgt) {
-    const site = qstr + encodeURIComponent(qtxt.value) + qprm;
+    site = qstr + encodeURIComponent(qtxt.value) + qprm;
     window.open(site, "_blank");
   }
 }
@@ -63,7 +78,7 @@ function getGoogle(event) {
     qprm = "&op=translate";
   }
   if (trgt) {
-    const site = qstr + encodeURIComponent(qtxt.value) + qprm;
+    site = qstr + encodeURIComponent(qtxt.value) + qprm;
     window.open(site, "_blank");
   }
 }
