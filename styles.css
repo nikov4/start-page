@@ -156,6 +156,12 @@ svg.clip {
 
 @media (min-width: 1920px) {
   .input {
+    width: 40vw;
+  }
+}
+
+@media (min-width: 2560px) {
+  .input {
     width: 30vw;
   }
 }
