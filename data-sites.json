@@ -1,4 +1,40 @@
 {
+  "5ka": {
+    "logo": "5ka",
+    "url_begin": "https://5ka.ru/search/?text=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "dixy": {
+    "logo": "dixy",
+    "url_begin": "https://dixy.ru/catalog/?q=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "fresh": {
+    "logo": "fresh",
+    "url_begin": "  https://www.ozon.ru/category/supermarket-25000/?miniapp=supermarket&text=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "vkusvill": {
+    "logo": "vkusvill",
+    "url_begin": "https://vkusvill.ru/search/?isComplete=0&type=products&q=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "ozon": {
+    "logo": "ozon",
+    "url_begin": "https://www.ozon.ru/search/?text=",
+    "url_end": "",
+    "hidden": ""
+  },
+  "wb": {
+    "logo": "wb",
+    "url_begin": "https://www.wildberries.ru/catalog/0/search.aspx?search=",
+    "url_end": "",
+    "hidden": ""
+  },
   "avito": {
     "logo": "avito",
     "url_begin": "https://www.avito.ru/moskva?cd=1&q=",
@@ -11,33 +47,21 @@
     "url_end": "",
     "hidden": ""
   },
+  "yamarket": {
+    "logo": "ya-market",
+    "url_begin": "https://market.yandex.ru/search?cvredirect=2&text=",
+    "url_end": "",
+    "hidden": ""
+  },
   "ali": {
     "logo": "aliexpress",
     "url_begin": "https://aliexpress.ru/wholesale?catId=&SearchText=",
     "url_end": "",
     "hidden": ""
   },
-  "wb": {
-    "logo": "wb",
-    "url_begin": "https://www.wildberries.ru/catalog/0/search.aspx?search=",
-    "url_end": "",
-    "hidden": ""
-  },
-  "ozon": {
-    "logo": "ozon",
-    "url_begin": "https://www.ozon.ru/search/?text=",
-    "url_end": "",
-    "hidden": ""
-  },
   "sbermegamarket": {
     "logo": "sbermegamarket",
     "url_begin": "https://sbermegamarket.ru/catalog/?q=",
-    "url_end": "",
-    "hidden": ""
-  },
-  "yamarket": {
-    "logo": "ya-market",
-    "url_begin": "https://market.yandex.ru/search?cvredirect=2&text=",
     "url_end": "",
     "hidden": ""
   },

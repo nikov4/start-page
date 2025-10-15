@@ -13,6 +13,20 @@
 
 <body>
   <svg display="none" focusable="false">
+    <symbol id="ya-map" width="24" height="24" viewBox="0 0 24 24">
+      <path
+        d="M12 1a9.002 9.002 0 0 0-6.366 15.362c1.63 1.63 5.466 3.988 5.693 6.465.034.37.303.673.673.673.37 0 .64-.303.673-.673.227-2.477 4.06-4.831 5.689-6.46A9.002 9.002 0 0 0 12 1z"
+        fill="#F43"></path>
+      <path d="M12 13.079a3.079 3.079 0 1 1 0-6.158 3.079 3.079 0 0 1 0 6.158z" fill="#fff"></path>
+    </symbol>
+    <symbol id="ya-search" width="44" height="44" viewBox="0 0 44 44">
+      <path d="M2.04 12c0-5.523 4.476-10 10-10 5.522 0 10 4.477 10 10s-4.478 10-10 10c-5.524 0-10-4.477-10-10z"
+        fill="#fc3f1d"></path>
+      <path
+        d="M13.32 7.666h-.924c-1.694 0-2.585.858-2.585 2.123 0 1.43.616 2.1 1.881 2.959l1.045.704-3.003 4.487H7.49l2.695-4.014c-1.55-1.111-2.42-2.19-2.42-4.015 0-2.288 1.595-3.85 4.62-3.85h3.003v11.868H13.32V7.666z"
+        fill="#fff">
+      </path>
+    </symbol>
     <symbol id="g-search" width="16px" height="16px" viewBox="0 0 24 24">
       <path fill="#34a853" d="M10 2v2a6 6 0 0 1 6 6h2a8 8 0 0 0-8-8"></path>
       <path fill="#ea4335" d="M10 4V2a8 8 0 0 0-8 8h2c0-3.3 2.7-6 6-6"></path>
@@ -80,23 +94,6 @@
             <use xlink:href="#eraser">
           </svg>
         </div>
-        <div class="search-yandex">
-          <button class="ya-button">
-            <span class="button-text">Поиск</span>
-          </button>
-          <button class="ya-button">
-            <span class="button-text">Карты</span>
-          </button>
-          <button class="ya-button">
-            <span class="button-text">Товары</span>
-          </button>
-          <button class="ya-button">
-            <span class="button-text">Картинки</span>
-          </button>
-          <button class="ya-button">
-            <span class="button-text">Перевод</span>
-          </button>
-        </div>
       </form>
     </div>
     <div class="s-section">
@@ -136,6 +133,20 @@
             <use xlink:href="#g-lang">
           </svg>
           <span class="button-text">Перевод</span>
+        </button>
+      </div>
+      <div class="search-google">
+        <button class="ya-button">
+          <svg class="clip">
+            <use xlink:href="#ya-search">
+          </svg>
+          <span class="button-text"><b>Поиск</b></span>
+        </button>
+        <button class="ya-button">
+          <svg class="clip">
+            <use xlink:href="#ya-map">
+          </svg>
+          <span class="button-text">Карты</span>
         </button>
       </div>
     </div>
