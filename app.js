@@ -71,9 +71,9 @@ function getGoogle(event) {
     qprm = "&source=lmns&tbm=vid";
   } else if (trgt === "Перевод") {
     if (qtxt.value.search(/[^а-яА-Я]+/)) {
-      qstr = "https://translate.google.ru/?hl=ru&tab=vT&sl=auto&tl=en&text=";
+      qstr = "https://translate.google.com/?hl=ru&tab=vT&sl=auto&tl=en&text=";
     } else {
-      qstr = "https://translate.google.ru/?hl=ru&tab=vT&sl=auto&tl=ru&text=";
+      qstr = "https://translate.google.com/?hl=ru&tab=vT&sl=auto&tl=ru&text=";
     }
     qprm = "&op=translate";
   }
