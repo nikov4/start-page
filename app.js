@@ -55,19 +55,19 @@ function getGoogle(event) {
   let qstr = "";
   let qprm = "";
   if (trgt === "Карты") {
-    qstr = "https://www.google.ru/maps?q=";
+    qstr = "https://www.google.com/maps?q=";
     qprm = "&ie=UTF-8";
   } else if (trgt === "Поиск") {
     qstr = "https://www.google.com/search?q=";
     qprm = "";
   } else if (trgt === "Новости") {
-    qstr = "https://www.google.ru/search?q=";
+    qstr = "https://www.google.com/search?q=";
     qprm = "&source=lmns&tbm=nws";
   } else if (trgt === "Картинки") {
-    qstr = "https://www.google.ru/search?q=";
+    qstr = "https://www.google.com/search?q=";
     qprm = "&source=lmns&tbm=isch";
   } else if (trgt === "Видео") {
-    qstr = "https://www.google.ru/search?q=";
+    qstr = "https://www.google.com/search?q=";
     qprm = "&source=lmns&tbm=vid";
   } else if (trgt === "Перевод") {
     if (qtxt.value.search(/[^а-яА-Я]+/)) {
