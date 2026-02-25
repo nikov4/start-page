@@ -1,28 +1,4 @@
 {
-  "5ka": {
-    "logo": "5ka",
-    "url_begin": "https://5ka.ru/search/?text=",
-    "url_end": "",
-    "hidden": ""
-  },
-  "dixy": {
-    "logo": "dixy",
-    "url_begin": "https://dixy.ru/catalog/?q=",
-    "url_end": "",
-    "hidden": ""
-  },
-  "fresh": {
-    "logo": "fresh",
-    "url_begin": "https://www.ozon.ru/category/supermarket-25000/?miniapp=supermarket&text=",
-    "url_end": "",
-    "hidden": ""
-  },
-  "vkusvill": {
-    "logo": "vkusvill",
-    "url_begin": "https://vkusvill.ru/search/?isComplete=0&type=products&q=",
-    "url_end": "",
-    "hidden": ""
-  },
   "ozon": {
     "logo": "ozon",
     "url_begin": "https://www.ozon.ru/search/?text=",

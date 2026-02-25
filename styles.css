@@ -41,6 +41,8 @@ svg.clip {
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
+  align-items: center;
+  margin: 0 10px;
 }
 
 .s-center {
@@ -130,9 +132,22 @@ svg.clip {
   .button-text {
     font-size: small;
   }
+  .buttons {
+    margin: 50px 10px;
+  }
+  svg.clip {
+    width: 20px;
+    height: 20px;
+  }
   .ya-button,
   .g-button {
     padding: 5px;
+  }
+  .s-center {
+    padding: 0;
+  }
+  .s-cell {
+    margin: 5px 5px;
   }
 }
 
